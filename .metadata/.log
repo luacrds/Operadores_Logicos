@@ -31,3 +31,97 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:05:50.745
+!MESSAGE Classpath changed for project: Operadores_Logicos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:10:00.311
+!MESSAGE Classpath changed for project: Operadores_Logicos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:10:30.721
+!MESSAGE Classpath changed for project: Exercicio1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:10:47.515
+!MESSAGE Classpath changed for project: Exercicio1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-18 15:11:07.774
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Luana\Downloads\sts-4.28.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Luana/Desktop/Generation/Atividade_1_Operadores_Logicos/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1742321467769
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\Luana\Downloads\sts-4.28.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:11:07.775
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-18 15:11:07.786
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13400
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:19:46.003
+!MESSAGE Classpath changed for project: Operadores_Logicos
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-18 15:19:46.210
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Operadores_Logicos does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-18 15:19:46.214
+!MESSAGE Operadores_Logicos does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:20:28.096
+!MESSAGE Classpath changed for project: Operadores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:20:34.513
+!MESSAGE Classpath changed for project: Operadores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:20:35.473
+!MESSAGE Classpath changed for project: Operadores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:20:38.959
+!MESSAGE Classpath changed for project: Operadores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:20:57.126
+!MESSAGE Classpath changed for project: Operadores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:21:16.807
+!MESSAGE Classpath changed for project: Operadores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-18 15:21:36.174
+!MESSAGE Classpath changed for project: Operadores
+
+!ENTRY org.eclipse.jface 2 0 2025-03-18 15:24:47.038
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-18 15:24:47.038
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
